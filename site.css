@@ -1,3 +1,43 @@
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.itemButton {
+  position: absolute;
+  right: 160px;
+  width: 70px;
+  height: 35px;
+  border: 2px solid white;
+  background: #BFD7B5;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.container-fluid {
+     padding: 60px 50px;
+ }
+
+.bg-grey {
+      background-color: #f6f6f6;
+  }
 h1
 {
 	text-align: center;
@@ -11,6 +51,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+
 .search {
   width: 100%;
   position: relative
@@ -21,7 +62,7 @@ body{
   width: 100%;
   border: 3px solid #00B4CC;
   padding: 5px;
-  height: 20px;
+  height: 30px;
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
@@ -32,10 +73,10 @@ body{
 }
 
 .searchButton {
-  position: absolute;  
+  position: absolute;
   right: -50px;
   width: 40px;
-  height: 36px;
+  height: 30px;
   border: 1px solid #00B4CC;
   background: #00B4CC;
   text-align: center;
@@ -58,13 +99,15 @@ body{
 .pageOption {
   overflow: hidden;
   position: relative;
-  width: 40em; height: 27em;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 85em; height: 60em;
 }
 .option, .option img { width: 100%; height: 100%; }
 .option {
   overflow: hidden;
-  position: absolute;  
-  /* arctan(27 / 40) = 34.01935deg 
+  position: absolute;
+  /* arctan(27 / 40) = 34.01935deg
    * need to skew by 90deg - 34.01935deg = 55.98065deg
   */
   transform: skewX(-55.98deg);
@@ -80,4 +123,11 @@ body{
 .option img {
   transform: skewX(55.98deg);
   transform-origin: inherit;
+}
+.row2 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.wrap{
+  position: fixed;
 }
