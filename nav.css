@@ -51,15 +51,15 @@
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #57BECC;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57BECC;
 }
 
 li {
-    float: left;
+  float: left;
 }
 .sign_in {
   float:right;
@@ -67,25 +67,25 @@ li {
 }
 
 a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 22px 18px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 18px;
+  text-decoration: none;
 }
 
 a:hover:not(.active) {
-    background-color: #AAAAAA;
+  background-color: #AAAAAA;
 }
 
 a.active {
-    color: white;
-    background-color: gray;
+  color: white;
+  background-color: gray;
 }
 
 h1
 {
-	text-align: center;
+  text-align: center;
 }
 
 h2 {
@@ -106,5 +106,5 @@ body{
 }
 
 .container-fluid {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
